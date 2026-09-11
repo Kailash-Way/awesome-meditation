@@ -1,0 +1,69 @@
+name: Resource Suggestion
+description: Suggest a new resource to add to the list
+title: "[Suggestion]: "
+labels: ["enhancement", "resource-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a resource! Please fill out the form below.
+
+  - type: input
+    id: resource-name
+    validations:
+      required: true
+    attributes:
+      label: Resource Name
+      description: The name of the resource (app, book, website, etc.)
+      placeholder: "e.g., Insight Timer"
+
+  - type: input
+    id: resource-url
+    validations:
+      required: true
+    attributes:
+      label: URL
+      description: The direct link to the resource
+      placeholder: "https://..."
+
+  - type: dropdown
+    id: category
+    validations:
+      required: true
+    attributes:
+      label: Category
+      description: Which section should this resource go in?
+      options:
+        - Apps (Free)
+        - Apps (Paid)
+        - Free Guided Meditations
+        - Books
+        - Podcasts
+        - YouTube Channels
+        - Free Online Courses
+        - Research & Science
+        - Breathing Techniques
+        - Tools
+        - Symbols & Meanings
+        - Retreats
+        - Communities
+        - Blogs & Articles
+        - Meditation Statistics
+        - Other (please describe in description)
+
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: Description
+      description: A short description of the resource (under 100 characters)
+      placeholder: "e.g., Largest free meditation community with 100k+ guided meditations."
+
+  - type: textarea
+    id: additional
+    validations:
+      required: false
+    attributes:
+      label: Additional Context
+      description: Anything else you'd like to add?
