@@ -1,0 +1,49 @@
+name: Broken Link / Error Report
+description: Report a broken link, typo, or error in the list
+title: "[Bug]: "
+labels: ["bug", "broken-link"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report an issue!
+
+  - type: input
+    id: location
+    validations:
+      required: true
+    attributes:
+      label: Where is the issue?
+      description: Which section/line in the README?
+      placeholder: "e.g., Apps > Free section, Insight Timer link"
+
+  - type: dropdown
+    id: issue-type
+    validations:
+      required: true
+    attributes:
+      label: Issue Type
+      options:
+        - Broken link (404 / not found)
+        - Redirected link
+        - Typo
+        - Incorrect information
+        - Outdated resource
+        - Other
+
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: Description
+      description: Describe the issue in detail
+      placeholder: "What's wrong and what should it be instead?"
+
+  - type: textarea
+    id: fix
+    validations:
+      required: false
+    attributes:
+      label: Suggested Fix
+      description: If you know how to fix it, let us know!
