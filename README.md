@@ -156,6 +156,7 @@
 - [Noisli](https://www.noisli.com/) - Background sounds for focus and relaxation.
 - [MyNoise](https://mynoise.net/) - Free customizable soundscapes and noise generators.
 - [Mala Counter PWA](https://github.com/Kailash-Way/mala-counter) - Open-source 108 bead counter and meditation timer (coming soon).
+- [Tai Chi Reset](https://taichi.silentdirectivellc.com/?utm_source=awesome-meditation&utm_medium=resource-directory) - A personalised 4-week gentle tai chi plan you follow in the browser, plus six free full-length guides (chair tai chi, balance after 60, a 5-minute shoulder reset) that need no signup. Paid plan is $4.99 for 14 days, then $19.99 every 4 weeks.
 
 ## Symbols & Meanings
 
