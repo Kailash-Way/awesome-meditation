@@ -229,6 +229,7 @@
 - [Shambhala Sun](https://www.lionsroar.com/category/shambhala-sun/) - Mindfulness and meditation articles.
 - [Access to Insight](https://www.accesstoinsight.org/) - Theravada Buddhist readings.
 - [Wildmind](https://www.wildmind.org/) - Buddhist meditation blog by Bodhipaksa.
+- [Being Mindful Stories](https://beingmindfulstories.com/) - Free library of Buddhist stories from Ajahn Brahm and others, matched to life situations.
 
 ## Meditation Statistics
 
